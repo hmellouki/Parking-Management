@@ -1,0 +1,21 @@
+{
+  "name": "parking/parking",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "": "Domain/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hamza",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "behat/behat": "3.8.x-dev",
+    "ramsey/uuid": "^4.1"
+  }
+}
